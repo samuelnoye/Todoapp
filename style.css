@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css?family=Trirong");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", fantasy;
+}
+
+body {
+  background-color: rgb(17, 194, 179, 2);
+  margin: auto;
+  align-items: center;
+  min-width: 100vh;
+  justify-content: center;
+}
+
+nav {
+  width: 100%;
+
+  background-color: rgb(57, 168, 150);
+  display: inline-block;
+  text-align: center;
+  color: rgb(230, 211, 207);
+  margin-bottom: 80px;
+  height: auto;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+  background-color: #4caf4f70;
+}
+
+.active {
+  background-color: #4caf50;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.center input {
+  width: 70%;
+  height: 37px;
+  padding: 10px 32px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+.center button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+   
+}
+
+.list {
+  position: relative;
+  background: #6539cc4b;
+  width: 500px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+.list h2 {
+  background: #6539cc;
+  color: aliceblue;
+  padding: 15px 20px;
+  font-weight: 600;
+}
+.list ul {
+  position: relative;
+  padding: 20px;
+}
+.list ul li {
+  position: relative;
+  list-style: none;
+  padding: 28px 0;
+  border-bottom: 1px solid #e2e0e7;
+}
+.list ul li:last-child {
+  border-bottom: none;
+}
+.list ul li label {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.list ul li label input {
+  visibility: hidden;
+  appearance: none;
+}
+.list ul li p {
+  position: absolute;
+  color: #f3efefe8;
+  font-size: 24px;
+}
